@@ -1,0 +1,2 @@
+# Requirements for HemoVisionAI
+kagglehub>=1.0.2

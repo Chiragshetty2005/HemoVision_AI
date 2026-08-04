@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Datasets and Large Data Files
+dataset/
+data/
+*.zip
+*.tar
+*.gz
+*.7z
+
+# Model Checkpoints & Weights
+saved_models/
+*.keras
+*.h5
+*.pth
+*.pt
+*.onnx
+*.ckpt
+*.pb
+*.tflite
+*.safetensors
+*.bin
+*.pkl
+*.pickle
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+*-checkpoint.ipynb
+
+# Logs and Monitoring (TensorBoard / WandB)
+logs/
+runs/
+wandb/
+*.log
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.project
+.pydevproject
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
