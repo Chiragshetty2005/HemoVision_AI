@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-01",
+  "model": "saved_models/hemovisionnet_v1_best.keras",
+  "accuracy": 0.9907550077041603,
+  "loss": 0.022360002622008324,
+  "macro_precision": 0.9862385321100917,
+  "macro_recall": 0.9923469387755102,
+  "macro_f1": 0.9890385179391925,
+  "macro_auc": 0.9999802901292967,
+  "per_class": {
+    "Benign": {
+      "n_true": 103,
+      "n_pred": 109,
+      "precision": 0.944954128440367,
+      "recall": 1.0,
+      "f1": 0.9716981132075472,
+      "auc": 1.0
+    },
+    "[Malignant] Pre-B": {
+      "n_true": 191,
+      "n_pred": 191,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "auc": 1.0
+    },
+    "[Malignant] Pro-B": {
+      "n_true": 159,
+      "n_pred": 159,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "auc": 1.0
+    },
+    "[Malignant] early Pre-B": {
+      "n_true": 196,
+      "n_pred": 190,
+      "precision": 1.0,
+      "recall": 0.9693877551020408,
+      "f1": 0.9844559585492227,
+      "auc": 0.9999211605171869
+    }
+  },
+  "confusion_matrix": [
+    [
+      103,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      191,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      159,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      190
+    ]
+  ],
+  "class_names": [
+    "Benign",
+    "[Malignant] Pre-B",
+    "[Malignant] Pro-B",
+    "[Malignant] early Pre-B"
+  ],
+  "n_val": 649,
+  "n_mis": 6,
+  "classification_report": "                         precision    recall  f1-score   support\n\n                 Benign     0.9450    1.0000    0.9717       103\n      [Malignant] Pre-B     1.0000    1.0000    1.0000       191\n      [Malignant] Pro-B     1.0000    1.0000    1.0000       159\n[Malignant] early Pre-B     1.0000    0.9694    0.9845       196\n\n               accuracy                         0.9908       649\n              macro avg     0.9862    0.9923    0.9890       649\n           weighted avg     0.9913    0.9908    0.9908       649\n"
+}
